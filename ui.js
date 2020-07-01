@@ -44,9 +44,9 @@ class UI {
               <a href="${repo.html_url}" target="_blank">${repo.name}</a>
             </div>
             <div class="col-md-6">
-            <span class="badge badge-primary">Stars: ${repo.stargazers_count}</span>
-            <span class="badge badge-secondary">Watchers: ${repo.watchers_count}</span>
-            <span class="badge badge-success">Forks: ${repo.forks_count}</span>
+              <span class="badge badge-primary">Stars: ${repo.stargazers_count}</span>
+              <span class="badge badge-secondary">Watchers: ${repo.watchers_count}</span>
+              <span class="badge badge-success">Forks: ${repo.forks_count}</span>
             </div>
           </div>
         </div>
